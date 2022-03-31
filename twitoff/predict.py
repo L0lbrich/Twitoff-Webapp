@@ -23,7 +23,7 @@ def predict_user(user0_username, user1_username, hypo_tweet):
     log_reg.fit(X,y)
 
     #get word embeddings for tweet 
-    hypo_tweet_vect = np.array([vectorize_tweet(hypo_tweet_vect)])
+    hypo_tweet_vect = np.array([vectorize_tweet(hypo_tweet)])
 
     #generate predictions
     predictions = log_reg.predict(hypo_tweet_vect)

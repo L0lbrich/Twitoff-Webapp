@@ -16,6 +16,7 @@ scikit-learn = "*"
 sklearn = "*"
 psycopg2 = "*"
 gunicorn = "*"
+heroku = "*"
 
 [dev-packages]
 
