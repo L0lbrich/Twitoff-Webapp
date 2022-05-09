@@ -12,4 +12,4 @@ Important aspects:
 6) Hosted on Heroku 
 
 Capabilities:
-This app is connected to the twitter API and allows you to add up to 100 tweets from any individual on twitter. You can then create sample tweets and compare it to 2 different Users where the model will tell you which individual the tweet is more likely to come from. 
+This app is connected to the twitter API and automatically adds up to 100 tweets from any individual on twitter. You can then create sample tweet and compare it between 2 different Users where the model will tell you which individual the tweet is more likely to come from. 
